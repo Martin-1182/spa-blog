@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
+#app {
+	font-family: 'Montserrat', sans-serif;
+}
+
+// Abstracts
+@import 'abstracts/variables';
+
+//Base
+@import 'base/base';
+@import 'base/helpers';
+@import 'base/reset';
+
+// Pages
+@import 'pages/blog';
+@import 'pages/blog-listing';
+@import 'pages/blog-detail';
+
+// Layout
+@import 'layout/header';
+

@@ -1,0 +1,16 @@
+.navigation {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	a {
+		padding: 1em;
+		text-transform: uppercase;
+		font-weight: 500;
+		svg {
+			width: 1em;
+		}	
+	}
+	img {
+		width: 60px;
+	}
+}

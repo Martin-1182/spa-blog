@@ -1,14 +1,12 @@
 <template>
-	<div class="container">
-		<posts />
-	</div>
+	<single-post />
 </template>
 
 <script>
-import Posts from '@/components/Posts'
+import SinglePost from '@/components/SinglePost.vue'
 export default {
 	components: {
-		Posts
+		SinglePost
 	}
 }
 </script>

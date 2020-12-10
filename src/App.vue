@@ -1,5 +1,7 @@
 <template>
-	<the-navigation />
+	<header class="container-fluid">
+		<the-navigation />
+	</header>
 	<main class="content">
 		<router-view />
 	</main>

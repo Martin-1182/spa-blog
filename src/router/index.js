@@ -6,6 +6,7 @@ import Home from '../views/Home.vue'
 import About from '../views/About.vue'
 import Blog from '../views/Blog.vue'
 import Contact from '../views/Contact.vue'
+import Show from '../views/Show.vue'
 
 const routes = [
 	{
@@ -27,6 +28,11 @@ const routes = [
 		path: '/contact',
 		name: 'Contact',
 		component: Contact
+	},
+	{
+		path: '/show',
+		name: 'Show',
+		component: Show
 	}
 ]
 

@@ -1,15 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
 #app {
 	font-family: 'Montserrat', sans-serif;
 }
 
-// Abstracts
-@import 'abstracts/variables';
-
-//Base
-@import 'base/base';
-@import 'base/helpers';
-@import 'base/reset';
 
 // Pages
 @import 'pages/blog';
@@ -18,4 +14,3 @@
 
 // Layout
 @import 'layout/header';
-

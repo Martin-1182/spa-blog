@@ -12,11 +12,11 @@
 				>
 				<div class="card-body">
 					<router-link to="/show">
-						<h5 class="card-title">
+						<h4 class="card-title">
 							Charming Evening Field
-						</h5>
+						</h4>
 					</router-link>
-
+					<hr class="separator" />
 					<p class="card-text">
 						Lorem, ipsum dolor sit amet consectetur adipisicing
 						elit. Odit hic rerum sint dignissimos delectus eius in
@@ -33,18 +33,25 @@
 					src="https://picsum.photos/200/300?random=2"
 					alt="Card image cap"
 				/>
-				<span class="tag text-uppercase">Travel</span>
+				<router-link to="" class="tag text-uppercase"
+					>Travel</router-link
+				>
 				<div class="card-body">
-					<h5 class="card-title">Charming Evening Field</h5>
+					<router-link to="/show">
+						<h4 class="card-title">
+							Charming Evening Field
+						</h4>
+					</router-link>
+					<hr class="separator" />
 					<p class="card-text">
 						Lorem ipsum dolor sit, amet consectetur adipisicing
 						elit. Necessitatibus labore reprehenderit temporibus
 						eligendi a fugiat. Eaque, aut accusantium. Obcaecati,
 						eaque.
 					</p>
-					<a href="#" class="card-text">
+					<router-link to="" class="card-text">
 						<small class="text-muted">Read More</small>
-					</a>
+					</router-link>
 				</div>
 			</div>
 			<div class="card">
@@ -53,17 +60,24 @@
 					src="https://picsum.photos/200/150?random=3"
 					alt="Card image cap"
 				/>
-				<span class="tag text-uppercase">Travel</span>
+				<router-link to="" class="tag text-uppercase"
+					>Travel</router-link
+				>
 				<div class="card-body">
-					<h5 class="card-title">Charming Evening Field</h5>
+					<router-link to="/show">
+						<h4 class="card-title">
+							Charming Evening Field
+						</h4>
+					</router-link>
+					<hr class="separator" />
 					<p class="card-text">
 						Lorem ipsum dolor sit amet consectetur adipisicing elit.
 						Voluptatum, autem animi. Nemo iste unde incidunt ut
 						libero et in veritatis!
 					</p>
-					<a href="#" class="card-text">
+					<router-link to="" class="card-text">
 						<small class="text-muted">Read More</small>
-					</a>
+					</router-link>
 				</div>
 			</div>
 			<div class="card">
@@ -72,18 +86,25 @@
 					src="https://picsum.photos/200/300?random=4"
 					alt="Card image cap"
 				/>
-				<span class="tag text-uppercase">Travel</span>
+				<router-link to="" class="tag text-uppercase"
+					>Travel</router-link
+				>
 				<div class="card-body">
-					<h5 class="card-title">Charming Evening Field</h5>
+					<router-link to="/show">
+						<h4 class="card-title">
+							Charming Evening Field
+						</h4>
+					</router-link>
+					<hr class="separator" />
 					<p class="card-text">
 						Lorem ipsum dolor sit, amet consectetur adipisicing
 						elit. Necessitatibus labore reprehenderit temporibus
 						eligendi a fugiat. Eaque, aut accusantium. Obcaecati,
 						eaque.
 					</p>
-					<a href="#" class="card-text">
+					<router-link to="" class="card-text">
 						<small class="text-muted">Read More</small>
-					</a>
+					</router-link>
 				</div>
 			</div>
 			<div class="card">
@@ -92,18 +113,25 @@
 					src="https://picsum.photos/200/300?random=5"
 					alt="Card image cap"
 				/>
-				<span class="tag text-uppercase">Travel</span>
+				<router-link to="" class="tag text-uppercase"
+					>Travel</router-link
+				>
 				<div class="card-body">
-					<h5 class="card-title">Charming Evening Field</h5>
+					<router-link to="/show">
+						<h4 class="card-title">
+							Charming Evening Field
+						</h4>
+					</router-link>
+					<hr class="separator" />
 					<p class="card-text">
 						Lorem ipsum dolor sit, amet consectetur adipisicing
 						elit. Necessitatibus labore reprehenderit temporibus
 						eligendi a fugiat. Eaque, aut accusantium. Obcaecati,
 						eaque.
 					</p>
-					<a href="#" class="card-text">
+					<router-link to="" class="card-text">
 						<small class="text-muted">Read More</small>
-					</a>
+					</router-link>
 				</div>
 			</div>
 			<div class="card">
@@ -112,18 +140,25 @@
 					src="https://picsum.photos/200/150?random=6"
 					alt="Card image cap"
 				/>
-				<span class="tag text-uppercase">Travel</span>
+				<router-link to="" class="tag text-uppercase"
+					>Travel</router-link
+				>
 				<div class="card-body">
-					<h5 class="card-title">Charming Evening Field</h5>
+					<router-link to="/show">
+						<h4 class="card-title">
+							Charming Evening Field
+						</h4>
+					</router-link>
+					<hr class="separator " />
 					<p class="card-text">
 						Lorem ipsum dolor sit, amet consectetur adipisicing
 						elit. Necessitatibus labore reprehenderit temporibus
 						eligendi a fugiat. Eaque, aut accusantium. Obcaecati,
 						eaque.
 					</p>
-					<a href="#" class="card-text">
+					<router-link to="" class="card-text">
 						<small class="text-muted">Read More</small>
-					</a>
+					</router-link>
 				</div>
 			</div>
 		</div>

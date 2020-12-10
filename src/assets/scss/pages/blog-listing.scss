@@ -1,4 +1,24 @@
 .card {
 	text-align: center;
 	border: none;
+	.tag {
+		text-decoration: none;
+		color: darkgrey;
+		&:hover {
+			color: grey;
+		}
+	}
+	h4 {
+		color: black;
+		font-weight: 600;
+		margin-bottom: 1em;
+	}
+	a {
+		text-decoration: none;
+	}
+	.separator { 
+		width: 7em;
+		border: 2px solid lightgrey;
+		margin-bottom: 1.8em;
+	}
 }

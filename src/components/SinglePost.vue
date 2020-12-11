@@ -193,6 +193,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+img {
+	cursor: pointer;
+}
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {
 	.container-fluid {
@@ -206,9 +209,6 @@ export default {
 	}
 	.post-text-bg {
 		padding: 1.4em !important;
-	}
-	img {
-		cursor: pointer;
 	}
 }
 </style>

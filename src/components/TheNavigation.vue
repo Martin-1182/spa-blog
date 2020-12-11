@@ -82,7 +82,7 @@ export default {
 		toggleNavbar() {
 			this.show = !this.show
 		}
-	},
+	}
 }
 </script>
 

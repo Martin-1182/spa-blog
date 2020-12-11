@@ -5,10 +5,20 @@
 		</div>
 		<div class="container">
 			<img
+				@click="showMultiple"
 				src="https://picsum.photos/1110/500?random=1"
 				alt="Post image"
 				class="img-fluid mb-4"
 			/>
+			<!-- all props & events -->
+			<vue-easy-lightbox
+				escDisabled
+				moveDisabled
+				:visible="visible"
+				:imgs="imgs"
+				:index="index"
+				@hide="handleHide"
+			></vue-easy-lightbox>
 			<div class="post-content">
 				<p class="post-text">
 					Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -85,10 +95,22 @@
 					Impedit dolor sunt aliquam!
 				</p>
 				<img
+					@click="showSingle"
 					src="https://picsum.photos/1110/500?random=2"
 					alt="Post image"
 					class="img-fluid mb-4"
 				/>
+
+				<!-- all props & events -->
+				<vue-easy-lightbox
+					escDisabled
+					moveDisabled
+					:visible="visible"
+					:imgs="imgs"
+					:index="index"
+					@hide="handleHide"
+				></vue-easy-lightbox>
+
 				<p class="post-text">
 					Lorem ipsum dolor sit amet consectetur adipisicing elit.
 					Vel, ipsam nobis quam soluta sit itaque accusamus iusto
@@ -124,7 +146,54 @@
 </template>
 
 <script>
-export default {}
+export default {
+	data() {
+		return {
+			imgs: '', // Img Url , string or Array of string
+			visible: false,
+			index: 0 // default: 0
+		}
+	},
+	methods: {
+		showSingle() {
+			this.imgs = 'https://picsum.photos/1110/500?random=2'
+			// or
+			/* this.imgs = {
+				title: 'this is a placeholder',
+				src: 'http://via.placeholder.com/350x150'
+			} */
+			this.show()
+		},
+		showMultiple() {
+			this.imgs = [
+				'https://picsum.photos/1110/500?random=2',
+				'https://picsum.photos/1110/500?random=1'
+			]
+			// or
+			/* this.imgs = [
+				{
+					title: 'test img',
+					src: 'https://picsum.photos/1110/500?random=2'
+				},
+				'https://picsum.photos/1110/500?random=2'
+			] */
+			// allow mixing
+
+			this.index = 1 // index of imgList
+			this.show()
+		},
+		show() {
+			this.visible = true
+		},
+		handleHide() {
+			this.visible = false
+		}
+	}
+}
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+img {
+	cursor: pointer;
+}
+</style>

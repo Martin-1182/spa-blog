@@ -68,7 +68,7 @@
 					ex harum nostrum ullam ratione repudiandae dolor? Quis iste
 					qui doloremque aspernatur sequi.
 				</p>
-				<p class="post-text p-5 font-weight-bold bg-warning">
+				<p class="post-text-bg p-5 font-weight-bold bg-warning">
 					Lorem ipsum dolor sit amet consectetur adipisicing elit.
 					Quam labore a quibusdam aliquid, repellat fugiat deleniti ad
 					et beatae porro omnis itaque, facilis similique consectetur
@@ -127,4 +127,20 @@
 export default {}
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+	.container-fluid {
+		margin-top: 1.3em;
+		padding: 2em !important;
+	}
+	article {
+		h1 {
+			font-size: 1.6em;
+		}
+	}
+	.post-text-bg {
+		padding: 1.4em !important;
+	}
+}
+</style>
